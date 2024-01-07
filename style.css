@@ -319,6 +319,9 @@ footer{
    font-size: 20px;
    line-height: 36px;
 }
+.fa-solid{
+   padding-right:10px;
+}
 hr{
    background-color: #03053b;
    padding: 1px 0;
