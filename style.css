@@ -55,22 +55,29 @@ main{
    width: 1320px;
    height: 600px;
    margin-top: 100px;
+   border-radius: 15px;
 
 }
-.party{
+
+.party-col{
    text-align: left;
    color: #FFF;
    padding: 126PX;
+
 }
-.party h1{
+.party-col img{
+   width: 100%;
+}
+.party-col h1{
    font-size: 64px;
 
 }
-.party p{
+.party-col p{
    color: #ffffffcc;
    font-size: 18px;
    padding: 20px 0;
 }
+
 .btn{
    display: inline-block;
    color: #fff;
@@ -80,6 +87,7 @@ main{
    padding: 10px 24px;
    text-decoration: none;
    transition: 0.3s;
+   cursor: pointer;
 }
 .btn:hover{
    background-color: #FFA810;
@@ -101,6 +109,7 @@ main{
    margin-top: 150px;
    background: linear-gradient(#ffcad3,#fff);
    padding: 150px 0;
+   border-radius: 15px;
 }
 .place h1{
    font-size: 32px;
@@ -110,4 +119,218 @@ main{
 }
 .place h1 span{
    color: #ff0000;
+}
+.offer{
+   margin-top: 150px;
+   text-align: left;
+}
+.row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.offer-col-1{
+   flex-basis: 35%;
+}
+.offer-col-1 h4{
+   color: #ff0000;
+   font-size: 24px;
+}
+.offer-col-1 h1{
+   font-size: 48px;
+   color: #181818;
+}
+.offer-col-1 p{
+   color: #07021199;
+   font-size: 20px;
+}
+.offer-col-2{
+   flex-basis: 32%;
+   border:15px solid #fff;
+   outline: 8px solid #ff0000;
+   border-radius: 50%;
+
+}
+.offer-col-2 img{
+   width: 100%;
+}
+.offer-col-3{
+   flex-basis: 25%;
+}
+.offer-col-3 h2{
+   color: #ff0000;
+   font-size: 48px;
+}
+.offer-col-3 p{
+   color: #07021199;
+   font-size: 20px;
+   padding: 20px 0 30px 0;
+}
+
+.holidays{
+   padding-top: 150px;
+   position: relative;
+}
+.holidays h4{
+   color: #181818;
+   font-size: 24px;
+}
+.holidays h1{
+   font-size: 72px;
+   font-weight: 900;
+   padding: 20px 0 35px 0;
+}
+.holidays h1 span{
+   color: #ff0000;
+}
+.holidays p{
+   font-size: 20px;
+   color: #07021199;
+}
+.discount{
+   position: relative;
+}
+.right-img{
+   padding-top: 150px;
+   float: right;
+   position: relative;
+}
+.overlap-img-1{
+   position: relative;
+}
+.overlap-img-2{
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transform: translate(-50%,-20%);
+   float: right;
+}
+.overlap-img{
+   position: absolute;
+}
+.bottom-img{
+   position: relative;
+}
+.bottom-img-1{
+   margin-top: -4px;
+   
+}
+.bottom-img-2{
+   width: 500px;
+   margin-bottom: -750px;
+   z-index: 1;
+   position: relative;
+}
+
+.portfolio{
+   text-align: left;
+   padding-top: 150px;
+}
+.portfolio h4{
+   font-size: 24px;
+   color: #ff0000;
+}
+.portfolio h1{
+   color: #070211;
+   font-size: 48px;
+}
+.portfolio p{
+   color: #07021199;
+   padding-bottom: 70px;
+}
+.portfolio-col{
+   flex-basis: 31%;
+   margin-bottom: 50px;
+   transition: 0.5s;
+   border-radius: 20px;
+   cursor: pointer;
+
+}
+.portfolio-col:hover{
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+.portfolio-col img{
+   width: 100%;
+   display: block;
+}
+
+.subscribe{
+   padding: 50px 120px;
+   background: #FFF2F2;
+   border-radius: 20px;
+}
+.subscribe img{
+   width: 150px;
+   height: 150px;
+   margin-bottom: 30px;
+}
+.subscribe h1{
+   font-size: 48px;
+   color: #181818;
+}
+.subscribe p{
+   color: #07021199;
+   font-size: 20px;
+   padding: 20px 0 50px;
+}
+.search{
+   width: 650px;
+   margin: auto;
+   background-color: #fff;
+   display: flex;
+   border-radius:30px;
+}
+.search input{
+   padding: 14px;
+   border: none;
+   outline: none;
+   width: 80%;
+   font-size: 18px;
+   border-radius: 30px 0 0 30px;
+}
+.search button{
+   width: 20%;
+   border: none;
+   outline: none;
+   border-radius:0 30px 30px 0;
+   background-color: #ff0000;
+   color: #fff;
+   cursor: pointer;
+}
+.search::placeholder{
+   color: #0702114d;
+}
+
+/* ----------------footer---------------- */
+
+footer{
+   background-color: #000;
+   color: #fff;
+   width: 100%;
+   padding: 100px 0;
+}
+.footer-row{
+   width: 1320px;
+   margin: auto;
+}
+.footer-col p{
+   font-size: 20px;
+   line-height: 36px;
+}
+hr{
+   background-color: #03053b;
+   padding: 1px 0;
+   border: none;
+   width: 100%;
+   margin: 50px 0;
+
+}
+.icons{
+   text-align: center;
+}
+.icons img{
+   margin: 0 20px;
+   cursor: pointer;
 }
